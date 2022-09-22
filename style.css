@@ -1,0 +1,272 @@
+body{
+    width: 100%;
+    background-color: black;
+    overflow:scroll;
+    scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.content {
+    margin-left: 25%;
+    padding-top: 10%;
+    width: 100%;
+}
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    width: 280px;
+    height: 100%;
+    background: #1b1b1b;
+    z-index: 999;
+}
+.sidebar h1 {
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    user-select: none;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.sidebar span{
+    color: #FFDE00;
+}
+.sidebar h1 img {
+    height: 30px;
+    width: 35px;
+}
+.datasiswa h2 a {
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    margin-left: 20px;
+    text-decoration: underline;
+}
+
+.datasiswa {
+    background-color: white;
+    padding-bottom: 10px;
+}
+.datasiswa ul li {
+    font-family: 'Quicksand', sans-serif;
+    font-size:20px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-left: 70px;
+    color: black;
+}
+.datasiswa ul li a{
+    font-size: 20px;
+}
+.datasiswa ul li a:hover{
+    text-decoration: underline;
+}
+.datasiswa a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+}
+.databarang {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.databarang a{
+    color: #c4c4c4;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+}
+.databarang a:hover{
+    color: #FFDE00;
+    transition: .3s;
+}
+
+footer {
+    margin-top: 325px;
+    width: 100%;
+    height: 100px;
+    background-color: #FFDE00;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    text-align: center;
+    align-items: center;
+
+}
+footer img {
+    margin-top:1.5px;
+    width: 100px;
+    height: 100px;
+}
+/* SEARCHBAR */
+form button {
+    width: 40px;
+    height: 40px;
+    background-color: #FFDE00;
+    border-radius: 50%;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+form input{
+    height: 35px;
+    width: 500px;
+    padding-left: 15px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    border-radius: 20px;
+}
+form input:focus {
+    outline: 2px solid white;
+}
+/* DATA-DATA-SISWA */
+.data-data-siswa  {
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 3%;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+}
+
+/* TABLE */
+table .judul {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    color: black;
+    background-color: #FFDE00;
+    text-transform: uppercase;
+}
+table .data:nth-child(odd){
+    background-color: #1b1b1b;
+}
+table td:first-child{
+    color: #31E1F7;
+}
+
+table td:nth-child(5){
+    width: 100px;
+}
+table td:nth-child(6){
+    color: #864EDC;
+}
+table td:nth-child(7){
+    color: #864EDC;
+}
+table td:nth-child(8){
+    color: #FD841F;
+}
+table .data {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+}
+table .data td:nth-child(9) a{
+    text-decoration: none;
+    color:#C3FF99;
+    background-color: #507833;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+table .data td:nth-child(9) a:hover{
+    background-color: #FFDE00;
+    color: black;
+    transition: .3s;
+}
+table .data td:nth-child(10) a{
+    text-decoration: none;
+    color: rgb(253, 127, 127);
+    background-color: #be2740;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+table .data td:nth-child(10) a:hover{
+    background-color: #FFDE00;
+    color: black;
+    transition: .3s;
+}
+
+table .judul th:first-child {
+   padding: 15px 20px;
+}
+table .judul th:nth-child(2) {
+    padding: 15px 80px;
+}
+table .judul th:nth-child(3) {
+    padding: 15px 15px;
+}
+table .judul th:nth-child(4) {
+    padding: 15px 20px;
+}
+table .judul th:nth-child(5) {
+    padding: 15px 40px;
+}
+table .judul th:nth-child(6) {
+    padding: 15px 10px;
+}
+table .judul th:nth-child(7) {
+    padding: 15px 20px;
+}
+table .judul th:nth-child(8) {
+    padding: 15px 25px;
+}
+table .judul th:nth-child(9) {
+    padding: 15px 10px;
+}
+table .judul th:nth-child(10) {
+    padding: 15px 10px;
+}
+
+/* DATA */
+table .data {
+    color: white;
+}
+table .data td:first-child {
+    padding: 15px 20px;
+    text-align: center;
+ }
+ table .data td:nth-child(2) {
+     padding: 15px 30px;
+     text-align: center;
+ }
+ table .data td:nth-child(3) {
+     padding: 15px 15px;
+     text-align: center;
+ }
+ table .data td:nth-child(4) {
+     padding: 15px 20px;
+     text-align: center;
+ }
+ table .data td:nth-child(5) {
+     padding: 15px 40px;
+     text-align: center;
+ }
+ table .data td:nth-child(6) {
+     padding: 15px 10px;
+     text-align: center;
+ }
+ table .data td:nth-child(7) {
+     padding: 15px 20px;
+     text-align: center;
+ }
+ table .data td:nth-child(8) {
+     padding: 15px 25px;
+     text-align: center;
+ }
+ table .data td:nth-child(9) {
+     padding: 15px 10px;
+     text-align: center;
+ }
+ table .data td:nth-child(10) {
+     padding: 15px 10px;
+     text-align: center;
+ }
+
+

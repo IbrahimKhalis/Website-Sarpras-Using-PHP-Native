@@ -1,0 +1,180 @@
+body{
+    width: 100%;
+    background-color: black;
+    overflow:scroll;
+    scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    width: 280px;
+    height: 100%;
+    background: #1b1b1b;
+    z-index: 999;
+}
+.sidebar h1 {
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    user-select: none;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.sidebar span{
+    color: #FFDE00;
+}
+.sidebar h1 img {
+    height: 30px;
+    width: 35px;
+}
+.datasiswa h2 a {
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    margin-left: 20px;
+}
+.datasiswa h2 a:hover{
+text-decoration: underline;}
+
+.datasiswa {
+    background-color: white;
+    padding-bottom: 10px;
+}
+.datasiswa ul  {
+    font-family: 'Quicksand', sans-serif;
+    font-size:20px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-left: 70px;
+    color: black;
+}
+.datasiswa ul li a{
+    text-decoration: underline;
+
+}
+.datasiswa a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+}
+.databarang {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.databarang a{
+    color: #c4c4c4;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+}
+.databarang a:hover{
+    transition: .3s;
+    color: #FFDE00;
+}
+
+footer {
+    margin-top: 325px;
+    width: 100%;
+    height: 100px;
+    background-color: #FFDE00;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    text-align: center;
+    align-items: center;
+
+}
+footer img {
+    margin-top:1.5px;
+    width: 100px;
+    height: 100px;
+}
+
+form {
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 3%;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+}
+
+.tambah-data-siswa {
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size:25px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+table {
+    background-color: #1b1b1b;
+    padding: 15px 200px 0px 30px;
+    border-radius: 30px;
+}
+form tr td {
+    padding-bottom: 25px;
+}
+form tr:last-child td:nth-child(2) input{
+    background-color: #FFDE00;
+    color: black;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+form tr:last-child td:nth-child(2) input:hover{
+    box-shadow: 4px 4px #c4c4c4;
+    transition: .3s;
+}
+form tr:last-child td:last-child input{
+    background-color: #FFDE00;
+    color: black;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+form tr:last-child td:last-child input:hover{
+    box-shadow: 4px 4px#c4c4c4;
+    transition: .3s;
+}
+form tr:last-child td:last-child input:focus{
+    outline: none;
+}
+
+form input {
+    height: 25px;
+    background-color: #c4c4c4;
+    color: black;
+    border: none;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+}
+form textarea{
+    background-color: #c4c4c4;
+    color: black;
+    border: none;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+}
+form input:focus,textarea:focus {
+    outline: 2px solid white;
+}
+
+
+
+
